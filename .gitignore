@@ -1,3 +1,2 @@
-# ignore MySQL mwb model files
-*.mwb
-*.bak
+# ignore MySQL mwb.bak model file
+*.mwb.bak
