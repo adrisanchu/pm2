@@ -1,0 +1,174 @@
+{
+    "params": {
+        "docTitle": "The PM² Methodology Guide v3.0",
+        "currentEdition": "The PM² Guide v3.0, December 2018",
+        "previousEditions": [
+            "The PM² Guide – Open Edition, v0.9, November 2016",
+            "The PM² Guide, v2.5, September 2015"
+        ],
+        "producedAndPublishedBy": "the European Commission, DIGIT Centre of Excellence in Project Management (CoEPM²)",
+        "language": "English",
+        "chapter": "3. Overview of the PM² Methodology",
+        "sections": [
+            "3.2 The PM² Lifecycle",
+            "3.3 PM² Phase Drivers and Key Artefacts"
+        ]
+    },
+    "data": {
+        "initiating": {
+            "phaseOrder": 0,
+            "projectPhase": "1. Initiating",
+            "shortDescription": "Define the desired outcomes. Create a Business Case. Define the project scope. Get the project off to a good start.",
+            "longDescription": "During this phase, the people involved formulate the project’s objective(s), ensure the project’s alignment to the organisation’s strategic objectives, undertake some initial planning to get the project off to a good start, and put together the information required to gain approval to continue to the Planning Phase. The main input of this phase is a (client) request to address a need, problem or opportunity.",
+            "activities": [
+                "Creation of the Project Initiation Request containing information about the requestor, business needs and desired project outcomes.",
+                "Creation of the Business Case, which provides the project justification and defines its budgetary requirements outlined in sections covering the business context, problem description, project description, possible alternative solutions, costs and timetable.",
+                "Creation of the Project Charter, which provides more details on the project definition in terms of scope, cost, time and risk. It also defines milestones, deliverables, project organisation, etc."
+            ],
+            "phaseGate": {
+                "id": "RfP",
+                "name": "Ready for Planning"
+            },
+            "mainDriver": {
+                "id": "PO",
+                "name": "Project Owner"
+            },
+            "phaseInputs": {
+                "projectInitiationRequest": {
+                    "name": "Project Initiation Request",
+                    "description": "Formalises the commitment to explore a problem, need or opportunity further and captures the context."
+                },
+                "businessCase": {
+                    "name": "Business Case",
+                    "description": "Captures the reasoning behind the project, provides justification and establishes the budgetary constraints."
+                }
+            },
+            "phaseOutputs": {
+                "projectCharter": {
+                    "name": "Project Charter",
+                    "description": "Builds on the Business Case and defines the project scope, high-level requirements and deliverables."
+                }
+            }
+        },
+        "planning": {
+            "phaseOrder": 1,
+            "previousPhase": 0, 
+            "projectPhase": "2. Planning",
+            "shortDescription": "Assign the Project Core Team (PCT). Elaborate the project scope. Plan the work.",
+            "longDescription": "During the Planning Phase, the project’s objective is developed into a specific and workable plan ready to be executed. The Project Work Plan specifies the project scope and appropriate approach, decides on a schedule for the tasks involved, estimates the necessary resources and develops the detail of the project plans. Several times during the Planning Phase, the Project Work Plan can be updated. Once agreed and finalised it is baselined and signed off.",
+            "activities": [
+                "Running the Planning Kick-off Meeting to officially start the Planning Phase.",
+                "Creating the Project Handbook, which defines the project’s management approach.",
+                "Developing the Project Work Plan (Work Breakdown, Effort and Costs, Schedule).",
+                "Updating the Project Stakeholder Matrix, which identifies all project stakeholders.",
+                "Creating other important plans such as the Communications Management Plan, the Transition Plan and the Business Implementation Plan."
+            ],
+            "phaseGate": {
+                "id": "RfE",
+                "name": "Ready for Executing"
+            },
+            "mainDriver": {
+                "id": "PM",
+                "name": "Project Manager"
+            },
+            "phaseInputs": {
+                "projectCharter": {
+                    "name": "Project Charter",
+                    "description": "Builds on the Business Case and defines the project scope, high-level requirements and deliverables."
+                }
+            },
+            "phaseOutputs": {
+                "projectHandbook": {
+                    "name": "Project Handbook",
+                    "description": "Presents the project management objectives and overall management approach. Documents the roles & responsibilities."
+                },
+                "projectWorkPlan": {
+                    "name": "Project Work Plan",
+                    "description": "Includes a breakdown of the work to be carried out, estimates of the effort and costs involved, and the project schedule."
+                }
+            }
+        },
+        "executing": {
+            "phaseOrder": 2,
+            "previousPhase": 1, 
+            "projectPhase": "3. Executing",
+            "shortDescription": "Coordinate the execution of project plans. Produce deliverables.",
+            "longDescription": "The third phase of a PM² project is the Executing Phase. During the Executing Phase the project team produces the project deliverables (outputs) as outlined in the Project Work Plan. This is typically the stage of the project lifecycle that involves the most resources and requires the most monitoring.",
+            "activities": [
+                "Running the Executing Kick-off Meeting.",
+                "Distributing information based on the Communications Management Plan.",
+                "Performing Quality Assurance (QA) activities as defined in the Quality Management Plan",
+                "Coordinating project, work people and resources, and resolving conflicts and issues.",
+                "Producing the project deliverables in accordance with the project plans.",
+                "Handing over the deliverables as described in the Deliverables Acceptance Plan."
+            ],
+            "phaseGate": {
+                "id": "RfC",
+                "name": "Ready for Closing"
+            },
+            "mainDriver": {
+                "id": "PCT",
+                "name": "Project Core Team"
+            },
+            "phaseInputs": {
+                "projectWorkPlan": {
+                    "name": "Project Work Plan",
+                    "description": "Includes a breakdown of the work to be carried out, estimates of the effort and costs involved, and the project schedule."
+                }
+            },
+            "phaseOutputs": {
+                "projectDeliverables": {
+                    "name": "Project Deliverables",
+                    "description": "Lists the complete set of project deliverables as defined in the Project Charter and Project Work Plan."
+                }
+            }
+        },
+        "closing": {
+            "phaseOrder": 3,
+            "previousPhase": 2, 
+            "projectPhase": "4. Closing",
+            "shortDescription": "Coordinate formal acceptance of the project. Report on project performance. Capture Lessons Learned and post-project recommendations. Close the project administratively.",
+            "longDescription": "During a project’s Closing Phase, the finished deliverables are officially transferred into the care, custody and control of the Project Owner (PO) and the project is administratively closed. Information on overall project performance and Lessons Learned is captured in the Project-End Report. The Project Manager (PM) ensures that the deliverables produced are accepted, all project documents are correctly filed and archived, and that all resources used by the project are formally released.",
+            "activities": [
+                "Finalising all activities in order to formally close the project.",
+                "Discussing the overall project experience and Lessons Learned with the project team.",
+                "Documenting Lessons Learned and best practices for future projects.",
+                "Closing the project administratively and archiving all project documents."
+            ],
+            "mainDriver": {
+                "id": "SH",
+                "name": "Stakeholders"
+            },
+            "phaseInputs": {
+                "projectDeliverables": {
+                    "name": "Project Deliverables",
+                    "description": "Lists the complete set of project deliverables as defined in the Project Charter and Project Work Plan."
+                }
+            },
+            "phaseOutputs": {
+                "projectEndReport": {
+                    "name": "Project-End Report",
+                    "description": "Summarises the project experience, project performance and Lessons Learned (successful project practices and potential pitfalls)."
+                }
+            }
+        },
+        "monitorAndControl": {
+            "projectPhase": "Monitor & Control",
+            "shortDescription": "Oversee all project work and management activities over the duration of the project: monitor project performance, measure progress, manage changes, address risks and issues, identify corrective actions etc.",
+            "longDescription": "Monitor & Control activities run throughout the project’s lifecycle. During Monitor & Control, all work is observed from the point of view of the Project Manager (PM). Monitoring is about measuring ongoing activities and assessing project performance against project plans. Controlling is about identifying and taking corrective action to address deviations from plans and to address issues and risks.",
+            "activities": [
+                "Manage Project Change",
+                "Deliverables Acceptance",
+                "Monitor Performance",
+                "Control Schedule",
+                "Manage Risks",
+                "Manage Stakeholders",
+                "Manage Issues & Decisions",
+                "Manage Transition",
+                "Control Cost",
+                "Manage Quality",                
+                "Manage Outsourcing"
+            ]
+        }
+    }
+}

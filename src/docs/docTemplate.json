@@ -1,0 +1,25 @@
+{
+    "params": {
+        "docTitle": "",
+        "currentEdition": "",
+        "previousEditions": [],
+        "producedAndPublishedBy": "",
+        "language": "",
+        "chapter": "",
+        "sections": []
+    },
+    "data": {
+        "initiating": {
+            "projectPhase": "",
+            "shortDescription": "",
+            "longDescription": "",
+            "activities": []
+        },
+        "planning": {
+            "projectPhase": "",
+            "shortDescription": "",
+            "longDescription": "",
+            "activities": []
+        }
+    }
+}
