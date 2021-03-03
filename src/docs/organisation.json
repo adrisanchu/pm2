@@ -24,158 +24,239 @@
         ]
     },
     "data": {
-        "AGB": {
-            "id": "AGB",
-            "name": "Appropriate Governance Body",
-            "description": "The Appropriate Governance Body (AGB) is the entity responsible for the strategic planning and portfolio management. In terms of projects, this is the body with the authority to approve a project, agree its stated objective and release the funding required to implement it. As a key decision-making body, this group comprises members from the requestor and provider side of the project.",
-            "layer": "Business Governing Layer",
-            "responsibilities": [
-                "Defines the corporate and business domain strategy.",
-                "Agrees to and implements a portfolio management framework to achieve the strategic objectives.",
-                "Identifies, evaluates and authorises programmes and projects for implementation.",
-                "Monitors and controls portfolio delivery performance.",
-                "Optimises and manages portfolio resources and benefits."
-            ]
+        "governance": {
+            "entities": {
+                "AGB": {
+                    "id": "AGB",
+                    "name": "Appropriate Governance Body",
+                    "description": "The Appropriate Governance Body (AGB) is the entity responsible for the strategic planning and portfolio management. In terms of projects, this is the body with the authority to approve a project, agree its stated objective and release the funding required to implement it. As a key decision-making body, this group comprises members from the requestor and provider side of the project.",
+                    "layer": "Business Governing Layer",
+                    "responsibilities": [
+                        "Defines the corporate and business domain strategy.",
+                        "Agrees to and implements a portfolio management framework to achieve the strategic objectives.",
+                        "Identifies, evaluates and authorises programmes and projects for implementation.",
+                        "Monitors and controls portfolio delivery performance.",
+                        "Optimises and manages portfolio resources and benefits."
+                    ]
+                }
+            }
         },
-        "PSC": {
-            "id": "PSC",
-            "name": "Project Steering Committee",
-            "description": "The Project Steering Committee (PSC) comprises at least the four roles in the Managing and Directing Layers, providing a balanced mix of requestor- and provider-side representatives. Other roles can also participate as per the project’s needs. The Project Steering Committee (PSC) is chaired by the Project Owner (PO) and is the key decision-making and issue-resolution body for the project. Any significant decisions that may affect the project or the team’s ability to deliver on the objectives will be escalated to the Project Steering Committee (PSC). Approval of key documents, resolution of important project issues or significant change requests will be discussed and decided upon here.",
-            "layer": "Steering Layer",
-            "responsibilities": [
-                "Champions the project and raises awareness of it at a senior level.",
-                "Guides and promotes the successful execution of the project at a strategic level, keeping the project focused on its objectives.",
-                "Ensures adherence to the organisation’s policies and rules (e.g. IT governance, data protection, information security, document management, etc.).",
-                "Provides high-level monitoring and control of the project.",
-                "Authorises transition between Phases unless this is performed by the Appropriate Governance Body (AGB).",
-                "Authorises deviations and scope changes with a high project impact and has the final say on decisions.",
-                "Deals with escalated issues and conflicts.",
-                "Drives and manages organisational change related to the project’s outcomes.",
-                "Approves and signs off key management milestone artefacts (i.e. Project Charter, Project Work Plan)."
-            ],
-            "members": {
-                "PO": {
-                    "id": "PO",
-                    "name": "Project Owner", 
-                    "description": "The Project Owner (PO) is the client of the project, and as such sets the business objectives and ensures that project outcomes are in line with business objectives and priorities. As the key Directing Layer role from the requestor side, the Project Owner (PO) is accountable for the overall project’s success, and later becomes the owner of the project’s outputs (product or service).",
-                    "layer": "Directing Layer",
+        "projectTeam": {
+            "entities": {
+                "PSC": {
+                    "id": "PSC",
+                    "name": "Project Steering Committee",
+                    "description": "The Project Steering Committee (PSC) comprises at least the four roles in the Managing and Directing Layers, providing a balanced mix of requestor- and provider-side representatives. Other roles can also participate as per the project’s needs. The Project Steering Committee (PSC) is chaired by the Project Owner (PO) and is the key decision-making and issue-resolution body for the project. Any significant decisions that may affect the project or the team’s ability to deliver on the objectives will be escalated to the Project Steering Committee (PSC). Approval of key documents, resolution of important project issues or significant change requests will be discussed and decided upon here.",
+                    "layer": "Steering Layer",
                     "responsibilities": [
-                        "Acts as the project champion, promoting the project’s success.",
-                        "Chairs the Project Steering Committee (PSC).",
-                        "Provides leadership and strategic direction to the Business Manager (BM) and Project Manager (PM).",
-                        "Sets the business objectives and accepts the Business Case for the project.",
-                        "Owns the business risks and ensures that project outcomes are in line with business objectives and priorities.",
-                        "Mobilises the resources necessary for the project, in accordance with the agreed budget.",
-                        "Regularly monitors project progress.",
-                        "Coordinates the resolution of escalated issues and conflicts.",
-                        "Drives organisational change and monitors proper evolution and change implementation.",
-                        "Approves and signs-off on key management milestone artefacts (Business Case, Project Charter, Project Handbook, Project Management Plans, Business Implementation Plan, etc.)."
-                    ]
-                },
-                "SP": {
-                    "id": "SP",
-                    "name": "Solution Provider", 
-                    "description": "The Solution Provider (SP) assumes overall accountability for project deliverables and represents the interests of those who design, manage and implement (or outsource) the project’s deliverables. As the key Directing Layer role from the provider side, the Solution Provider (SP) usually has a management position in the functional hierarchy of the organisation undertaking the project, and therefore often works with the Project Owner (PO) in defining the project’s business objectives.",
-                    "layer": "Directing Layer",
-                    "responsibilities": [
-                        "Assumes overall accountability for the project deliverables and services requested by the Project Owner (PO).",
-                        "Mobilises the required resources from the provider side and appoints the Project Manager (PM).",
-                        "Approves the objectives of any outsourced activities and deliverables and becomes accountable for the contractor’s performance."
-                    ]
-                },
-                "BM": {
-                    "id": "BM",
-                    "name": "Business Manager",
-                    "description": "The Business Manager (BM) represents the Project Owner (PO) on a daily basis within the project and helps in defining the project’s business objectives via the Project Initiation Request, Business Case and Business Implementation Plan. The Business Manager (BM) collaborates closely with the Project Manager (PM) and coordinates client-side activities and roles (e.g. user and business representatives), ensuring that the project’s deliverables fulfil the business and user needs.",
-                    "layer": "Managing Layer",
-                    "responsibilities": [
-                        "Guarantees cooperation and an efficient communication channel with the Project Manager (PM).",
-                        "Coordinates the Business Implementation Group (BIG) and acts as a liaison between the User Representatives (URs) and the provider organisation.",
-                        "Ensures that the products delivered by the project fulfil the user’s needs.",
-                        "Manages the activities on the business side of the project and ensures that the required business resources are made available.",
-                        "Decides on the best way to introduce business change or re-engineering actions, when needed.",
-                        "Ensures that the business organisation is ready to accommodate the project’s deliverables when they are made available by the Solution Provider (SP).",
-                        "Leads the implementation of the business changes within the user community.",
-                        "Coordinates the schedule and delivery of any user training (and production of related material)."
-                    ]
-                },
-                "PM": {
-                    "id": "PM",
-                    "name": "Project Manager",
-                    "description": "The Project Manager (PM) oversees the project on a daily basis and is responsible for delivering highquality results within the identified objectives and constraints, ensuring the effective use of the allocated resources. More widely, the Project Manager’s (PM) responsibility also includes risk and issue management, project communication and stakeholder management.",
-                    "layer": "Managing Layer",
-                    "responsibilities": [
-                        "Executes the project plans as approved by the Project Steering Committee (PSC).",
-                        "Coordinates the Project Core Team (PCT), ensuring the effective use of the allocated resources.",
-                        "Ensures that project objectives are achieved within the identified constraints, taking preventive or corrective measures where necessary.",
-                        "Manages stakeholder expectations.",
-                        "Oversees the creation of all management artefacts (except the Project Initiation Request, Business Case and Business Implementation Plan) and secures approval from the Project Owner (PO) or the Project Steering Committee (PSC).",
-                        "Ensures the controlled evolution, of products delivered, through proper change management.",
-                        "Performs risk management activities for project-related risks.",
-                        "Monitors project status and reports to the Project Steering Committee (PSC) on project progress at regular predefined intervals.",
-                        "Escalates unresolvable project issues to the Project Steering Committee (PSC).",
-                        "Liaises between the Directing and Performing Layers of the project."
-                    ]
+                        "Champions the project and raises awareness of it at a senior level.",
+                        "Guides and promotes the successful execution of the project at a strategic level, keeping the project focused on its objectives.",
+                        "Ensures adherence to the organisation’s policies and rules (e.g. IT governance, data protection, information security, document management, etc.).",
+                        "Provides high-level monitoring and control of the project.",
+                        "Authorises transition between Phases unless this is performed by the Appropriate Governance Body (AGB).",
+                        "Authorises deviations and scope changes with a high project impact and has the final say on decisions.",
+                        "Deals with escalated issues and conflicts.",
+                        "Drives and manages organisational change related to the project’s outcomes.",
+                        "Approves and signs off key management milestone artefacts (i.e. Project Charter, Project Work Plan)."
+                    ],
+                    "roles": {
+                        "PO": {
+                            "id": "PO",
+                            "name": "Project Owner", 
+                            "description": "The Project Owner (PO) is the client of the project, and as such sets the business objectives and ensures that project outcomes are in line with business objectives and priorities. As the key Directing Layer role from the requestor side, the Project Owner (PO) is accountable for the overall project’s success, and later becomes the owner of the project’s outputs (product or service).",
+                            "layer": "Directing Layer",
+                            "side": "Requestor Side",
+                            "responsibilities": [
+                                "Acts as the project champion, promoting the project’s success.",
+                                "Chairs the Project Steering Committee (PSC).",
+                                "Provides leadership and strategic direction to the Business Manager (BM) and Project Manager (PM).",
+                                "Sets the business objectives and accepts the Business Case for the project.",
+                                "Owns the business risks and ensures that project outcomes are in line with business objectives and priorities.",
+                                "Mobilises the resources necessary for the project, in accordance with the agreed budget.",
+                                "Regularly monitors project progress.",
+                                "Coordinates the resolution of escalated issues and conflicts.",
+                                "Drives organisational change and monitors proper evolution and change implementation.",
+                                "Approves and signs-off on key management milestone artefacts (Business Case, Project Charter, Project Handbook, Project Management Plans, Business Implementation Plan, etc.)."
+                            ]
+                        },
+                        "SP": {
+                            "id": "SP",
+                            "name": "Solution Provider", 
+                            "description": "The Solution Provider (SP) assumes overall accountability for project deliverables and represents the interests of those who design, manage and implement (or outsource) the project’s deliverables. As the key Directing Layer role from the provider side, the Solution Provider (SP) usually has a management position in the functional hierarchy of the organisation undertaking the project, and therefore often works with the Project Owner (PO) in defining the project’s business objectives.",
+                            "layer": "Directing Layer",
+                            "side": "Provider Side",
+                            "responsibilities": [
+                                "Assumes overall accountability for the project deliverables and services requested by the Project Owner (PO).",
+                                "Mobilises the required resources from the provider side and appoints the Project Manager (PM).",
+                                "Approves the objectives of any outsourced activities and deliverables and becomes accountable for the contractor’s performance."
+                            ]
+                        },
+                        "BM": {
+                            "id": "BM",
+                            "name": "Business Manager",
+                            "description": "The Business Manager (BM) represents the Project Owner (PO) on a daily basis within the project and helps in defining the project’s business objectives via the Project Initiation Request, Business Case and Business Implementation Plan. The Business Manager (BM) collaborates closely with the Project Manager (PM) and coordinates client-side activities and roles (e.g. user and business representatives), ensuring that the project’s deliverables fulfil the business and user needs.",
+                            "layer": "Managing Layer",
+                            "side": "Requestor Side",
+                            "responsibilities": [
+                                "Guarantees cooperation and an efficient communication channel with the Project Manager (PM).",
+                                "Coordinates the Business Implementation Group (BIG) and acts as a liaison between the User Representatives (URs) and the provider organisation.",
+                                "Ensures that the products delivered by the project fulfil the user’s needs.",
+                                "Manages the activities on the business side of the project and ensures that the required business resources are made available.",
+                                "Decides on the best way to introduce business change or re-engineering actions, when needed.",
+                                "Ensures that the business organisation is ready to accommodate the project’s deliverables when they are made available by the Solution Provider (SP).",
+                                "Leads the implementation of the business changes within the user community.",
+                                "Coordinates the schedule and delivery of any user training (and production of related material)."
+                            ]
+                        },
+                        "PM": {
+                            "id": "PM",
+                            "name": "Project Manager",
+                            "description": "The Project Manager (PM) oversees the project on a daily basis and is responsible for delivering highquality results within the identified objectives and constraints, ensuring the effective use of the allocated resources. More widely, the Project Manager’s (PM) responsibility also includes risk and issue management, project communication and stakeholder management.",
+                            "layer": "Managing Layer",
+                            "side": "Provider Side",
+                            "responsibilities": [
+                                "Executes the project plans as approved by the Project Steering Committee (PSC).",
+                                "Coordinates the Project Core Team (PCT), ensuring the effective use of the allocated resources.",
+                                "Ensures that project objectives are achieved within the identified constraints, taking preventive or corrective measures where necessary.",
+                                "Manages stakeholder expectations.",
+                                "Oversees the creation of all management artefacts (except the Project Initiation Request, Business Case and Business Implementation Plan) and secures approval from the Project Owner (PO) or the Project Steering Committee (PSC).",
+                                "Ensures the controlled evolution, of products delivered, through proper change management.",
+                                "Performs risk management activities for project-related risks.",
+                                "Monitors project status and reports to the Project Steering Committee (PSC) on project progress at regular predefined intervals.",
+                                "Escalates unresolvable project issues to the Project Steering Committee (PSC).",
+                                "Liaises between the Directing and Performing Layers of the project."
+                            ]
+                        }
+                    },
+                    "optionalRoles": {
+                        "UR": {
+                            "id": "UR",
+                            "name": "User Representative",
+                            "description": "Represents the interests of the project’s users, ensuring that project deliverables are fit-for-purpose."
+                        },
+                        "CPM": {
+                            "id": "CPM",
+                            "name": "Contractor’s Project Manager",
+                            "description": "Responsible for the outsourced parts of the project."
+                        },
+                        "AO": {
+                            "id": "AO",
+                            "name": "Architecture Office",
+                            "description": "Plays an advisory role on architectural aspects of IT projects."
+                        },
+                        "PSO": {
+                            "id": "PSO",
+                            "name": "Project Support Office",
+                            "description": "Administers Project Steering Committee (PSC) meetings and project documentation. Produces consolidated reports for large projects."
+                        },
+                        "PQA": {
+                            "id": "PQA",
+                            "name": "Project Quality Assurance",
+                            "description": "Responsible for quality assurance and auditing."
+                        },
+                        "DMO": {
+                            "id": "DMO",
+                            "name": "Document Management Officer",
+                            "description": "Ensures the coherent implementation of document management roles."
+                        },
+                        "DPC": {
+                            "id": "DPC",
+                            "name": "Data Protection Coordinator (DPC)",
+                            "description": "Consults and advises on data protection issues."
+                        },
+                        "LISO": {
+                            "id": "LISO",
+                            "name": "Local Information Security Officer",
+                            "description": "Consults and advises on security issues."
+                        }
+                    }
                 },
                 "BIG": {
                     "id": "BIG",
                     "name": "Business Implementation Group",
                     "description": "The Business Implementation Group (BIG) sits on the requestor side and consists of representatives of business and user groups. Coordinated by the Business Manager (BM), it is responsible for planning and implementing the business changes that need to be made for the organisation to effectively integrate the project deliverables into its everyday work.",
                     "layer": "Performing Layer",
+                    "side": "Requestor Side",
+                    "coordinatedBy": "BM",
                     "responsibilities": [
-                        ""
-                    ]
+                        "Analyses the impact of the project’s implementation on ongoing operations, existing business processes, staff and organisational culture.",
+                        "Participates in the design and updating of affected business processes.",
+                        "Prepares the affected business area for the upcoming change.",
+                        "Advises the Business Manager (BM) on the organisation’s readiness for change.",
+                        "Embeds the project deliverables into business operations and implements the organisational change activities that fall within the project’s scope."
+                    ],
+                    "roles": {
+                        "UR": {
+                            "id": "UR",
+                            "name": "User Representative",
+                            "description": "User Representatives (URs) represent the interests of the project’s end-users and are part of the Business Implementation Group (BIG). It is important to designate User Representatives (URs) and involve them throughout the project, keep them up to date with developments and provide them with a sense of ownership. User Representatives (URs) help define project requirements and validate them at regular intervals, ensuring that the final deliverables are fit for the business purpose.",
+                            "responsibilities": [
+                                "Help define the business needs and requirements.",
+                                "Ensure that the project specifications and deliverables meet the needs of all users.",
+                                "Review the project specification and acceptance criteria on behalf of the users.",
+                                "Communicate and prioritise user opinions in the Project Steering Committee (PSC) and ensure that these opinions are taken into consideration when decisions are made whether or not to implement a proposed change.",
+                                "Participate in demonstrations and pilot phases as needed.",
+                                "Perform user acceptance tests.",
+                                "Sign off on user-related documents (requirements document, deliverable acceptance testing, etc.).",
+                                "Guarantee business stability during the transition towards the new operational state."
+                            ]
+                        }
+                    }
                 },
                 "PCT": {
-                    "id": "",
-                    "name": "",
-                    "description": "",
+                    "id": "PCT",
+                    "name": "Project Core Team",
+                    "description": "The Project Core Team (PCT) comprises the specialist roles responsible for creating the project deliverables. Its composition and structure depend on the project size and type (e.g. IT project, policy development project, etc.) and is defined by the Project Manager (PM) based on the project’s needs.",
                     "layer": "Performing Layer",
+                    "side": "Provider Side",
+                    "coordinatedBy": "PM",
                     "responsibilities": [
-                        ""
-                    ]
+                        "Participates in developing the project scope and planning project activities.",
+                        "Carries out project activities based on the Project Work Plan and schedule.",
+                        "Produces project deliverables.",
+                        "Provides the Project Manager (PM) with information on the progress of activities.",
+                        "Participates in project meetings as needed and helps resolve issues.",
+                        "Participates in the Project-End Review Meeting during the collection of Lessons Learned."
+                    ],
+                    "roles": {
+                        "CPM": {
+                            "id": "CPM",
+                            "name": "Contractor’s Project Manager",
+                            "description": "The Contractor’s Project Manager (CPM) leads the contractor’s staff working on the project, planning controlling and reporting on the production of outsourced deliverables. Working closely with the Project Manager (PM), the Contractor’s Project Manager (CPM) ensures that all work is carried out on time and to the agreed standards, guaranteeing the successful completion and delivery of subcontracted activities."
+                        },
+                        "PMA": {
+                            "id": "PMA",
+                            "name": "Project Management Assistant",
+                            "description": "For large projects, the Project Manager (PM) might find it useful to delegate some management tasks to an assistant. This Project Management Assistant (PMA) can work on a range of coordination and supportive tasks as assigned by the Project Manager (PM), and acts as the Project Manager’s (PM) backup in meetings, etc. However, the Project Manager (PM) remains the person responsible for all project management tasks and deliverables. The Project Management Assistant (PMA) may also be part of a Project Support Team (PST) and assigned to the project."
+                        }
+                    }
                 }
             },
-            "optionalMembers": {
-                "UR": {
-                    "id": "UR",
-                    "name": "User Representative",
-                    "description": "Represents the interests of the project’s users, ensuring that project deliverables are fit-for-purpose."
-                },
-                "CPM": {
-                    "id": "CPM",
-                    "name": "Contractor’s Project Manager",
-                    "description": "Responsible for the outsourced parts of the project."
-                },
-                "AO": {
-                    "id": "AO",
-                    "name": "Architecture Office",
-                    "description": "Plays an advisory role on architectural aspects of IT projects."
-                },
-                "PSO": {
-                    "id": "PSO",
-                    "name": "Project Support Office",
-                    "description": "Administers Project Steering Committee (PSC) meetings and project documentation. Produces consolidated reports for large projects."
-                },
-                "PQA": {
-                    "id": "PQA",
-                    "name": "Project Quality Assurance",
-                    "description": "Responsible for quality assurance and auditing."
-                },
-                "DMO": {
-                    "id": "DMO",
-                    "name": "Document Management Officer",
-                    "description": "Ensures the coherent implementation of document management roles."
-                },
-                "DPC": {
-                    "id": "DPC",
-                    "name": "Data Protection Coordinator (DPC)",
-                    "description": "Consults and advises on data protection issues."
-                },
-                "LISO": {
-                    "id": "LISO",
-                    "name": "Local Information Security Officer",
-                    "description": "Consults and advises on security issues."
+            "optionalEntities": {
+                "PST": {
+                    "id": "PST",
+                    "name": "Project Support Team",
+                    "description": "The Project Support Team (PST) is an optional role that consists of the people responsible for providing support to the project. Its composition and structure depend on the needs of the project. The Project Support Team (PST) is often composed of representatives from various horizontal services or units.",
+                    "responsibilities": [
+                        "Provides administrative support to the project.",
+                        "Defines requirements for reporting and communication.",
+                        "Administers Project Steering Committee (PSC) meetings and drafts related reports.",
+                        "Supports the Project Manager (PM) in planning, monitoring and controlling the project.",
+                        "Advises on project management tools and administrative services.",
+                        "Manages the project documentation (versioning, archiving, etc.)."
+                    ],
+                    "roles": {
+                        "PSO": {
+                            "id": "PSO",
+                            "name": "Project Support Office",
+                            "description": "The Project Support Office (PSO), also called Project Management Office or Project Office, is an optional structure that can provide services to project teams such as the application of the methodology and use of the artefacts, information systems, governance, logistics and various support."
+                        },
+                        "PQA": {
+                            "id": "PQA",
+                            "name": "Project Quality Assurance",
+                            "description": "Assigned by the Project Steering Committee (PSC) and working independently of the Project Manager (PM), the Project Quality Assurance (PQA) ensures the high quality of the project and its deliverables, by reviewing processes and artefacts, identifying non-conformities with the set quality standards and recommending corrective actions. This is an optional role in an organisation, reporting directly to the Project Steering Committee (PSC), and may take the form of either a group or individual staff member."
+                        }
+                    }
                 }
             }
         }
