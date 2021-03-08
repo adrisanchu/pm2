@@ -1,0 +1,51 @@
+{
+    "params": {
+        "docTitle": "The PM² Methodology Guide v3.0",
+        "currentEdition": "The PM² Guide v3.0, December 2018",
+        "previousEditions": [
+            "The PM² Guide – Open Edition, v0.9, November 2016",
+            "The PM² Guide, v2.5, September 2015"
+        ],
+        "producedAndPublishedBy": "the European Commission, DIGIT Centre of Excellence in Project Management (CoEPM²)",
+        "language": "English",
+        "chapter": "4. Project Organisation and Roles",
+        "sections": [
+            "4.12 RAM (RASCI) — Documenting Responsibility Assignments"
+        ]
+    },
+    "data": {
+        "initiating": {
+            "projectInitiationRequest": {
+                "AGB": "I",
+                "PSC": "n.a.",
+                "PO": "",
+                "BM": "",
+                "BIG": "",
+                "SP": "",
+                "PM": "",
+                "PCT": ""
+            },
+            "businessCase": {
+                "AGB": "",
+                "PSC": "",
+                "PO": "",
+                "BM": "",
+                "BIG": "",
+                "SP": "",
+                "PM": "",
+                "PCT": ""
+            },
+            "projectCharter": {
+                "AGB": "",
+                "PSC": "",
+                "PO": "",
+                "BM": "",
+                "BIG": "",
+                "SP": "",
+                "PM": "",
+                "PCT": ""
+            }
+        }    
+    }
+    
+}
