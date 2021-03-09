@@ -1,0 +1,34 @@
+id_role;name;R/P;Group or individual;role_type;description;PSC_participation;classification;RASCI
+ATeM;Agile Team Member;Provider;Individual;Optional role;Team Member that focuses on producing the actual IS that is part of the project's solution to the stakeholders needs.;No;Agile specific role;0
+APR;Analyst Programmer;Provider;Both;Optional role;Develops the solution according to the specifications;On request;IT specific roles;0
+AGB;Appropriate Governance Body;Requestor;Group;Optional role;Management committee governing a number of projects, mostly at Unit or Department level;On request;Teams;1
+ArOw;Architecture Owner;Provider;Individual;Optional role;The solution architect responsible for the architecture decisions for the Project Core Team (PCT);No;Agile specific role;0
+APM;Assistant Project Manager;Provider;Individual;Optional role;Assists the Project Manager on project management/Administration activities;On request;Support;0
+BA;Busines analyst;Provider;Group;Optional role;Defines the business requirements for the project;No;Operational role;0
+BIG;Business Implementation Group;Requestor;Group;Key role;They plan and implement the business change activities.;On request;Teams;1
+BM;Business Manager ;Requestor;Individual;Key role;Acts on a daily basis on behalf of the Project Owner ;Key member;Roles;1
+CO;Consultant;Provider;Individual;Optional role;A person that can give advice regarding specific topics;No;Operational role;0
+CON;Contractor;Provider;Group;Optional role;An external company that is contracted for a specific task(s);No;Operational role;0
+CPM;Contractor's Project Manager;Provider;Individual;Optional role;Leads the contractor's staff working on the project;On request;Support;0
+DPC;Data Protection Coordinator;Provider;Individual;Optional role;Consults and advises on Data Protection aspects.;On request;Other DG Role;0
+DMO;Document Management Officer;Provider;Individual;Optional role;Assure a coherent implementation of the Document Management Roles.;On request;Other DG Role;0
+FAN;Functional Analyst;Provider;Individual;Optional role;Analyses and describes the requirements;On request;IT specific roles;0
+FA;Functional Architect;Provider;Individual;Optional role;Creates the functional architecture of the solution;On request;IT specific roles;0
+LAM;Leader of Application Mgmt;Provider;Individual;Optional role;Responsible for the delivery of the application;On request;IT specific roles;0
+LSS;Leader of System Support;Provider;Individual;Optional role;Responsible to give support regarding system items;On request;IT specific roles;0
+LISO;Local Information Security Officer;Requestor;Individual;Optional role;Consults and advises on Security aspects.;On request;Other DG Role;0
+PrOw;TeamProduct Owner;Requestor;Individual;Optional role;Represents mainly client and end-users concerns;No;Agile specific role;0
+PCT;Project Core Team ;Provider;Group;Key role;They are responsible for the implementation of the project deliverables;On request;Teams;1
+PM;Project Manager;Provider;Individual;Key role;Is responsible for the entire project and its deliverables;Key member;Roles;1
+PO;Project Owner;Requestor;Individual;Key role;The final responsible for the project;Chairman;Roles;1
+PQA;Project Quality Assurance;Provider;Both;Optional role;Responsible for quality assurance and auditing.;On request;Support;0
+PSC;Project Steering Committee;Both;Group;Key decision body;The committee that governs the project made up of PO, BM, PM, SO;Yes;Teams;1
+PSO;Project Support Office;Provider;Group;Optional role;Offers support services to the Project Manager (PM);On request;Support;0
+PST;Project Support Team;Provider;Group;Optional role;They provide administrative and communications support;On request;Teams;0
+RM;Release Manager;Provider;Individual;Optional role;Plans and supervises every release of the solution;On request;IT specific roles;0
+SP;Solution Provider;Provider;Individual;Key role;Is responsible for providing the solution;Key member;Roles;1
+SU;Support;Provider;Group;Optional role;A group that can support the project (administation, meeting rooms, �);No;Operational role;0
+TeCo;Team Coordinator;Provider;Individual;Optional role;A facilitator and team coach whose main purpose is to create and maintain the conditions to allow the team to be focused on achieving specific objectives and being successful.;No;Agile specific role;0
+TA;Technical Architect;Provider;Individual;Optional role;Creates the technical architecture of the solution;On request;IT specific roles;0
+US;User;Requestor;Group;Optional role;The group that will use the solution;No;Operational role;0
+Urs;User Representatives;Requestor;Both;Key role;They represent the interests of the users in the project.;On request;Operational role;0
