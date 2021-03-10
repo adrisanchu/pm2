@@ -1,0 +1,40 @@
+﻿id_artefact,code,name,id_phase
+0,projectInitiationRequest,Project Initiation Request,0
+1,businessCase,Business Case,0
+2,projectCharter,Project Charter,0
+3,planningKickoffMeeting,Planning Kick-off Meeting,1
+4,projectHandbook,Project Handbook,1
+5,projectStakeholderMatrix,Project Stakeholder Matrix,1
+6,projectWorkPlan,Project Work Plan,1
+7,outsourcingPlan,Outsourcing Plan,1
+8,deliverablesAcceptancePlan,Deliverables Acceptance Plan,1
+9,transitionPlan,Transition Plan,1
+10,businessImplementationPlan,Business Implementation Plan,1
+11,managementPlans,Management Plans,1
+12,requirementsManagementPlan,Requirements Management Plan,1
+13,projectChangeManagementPlan,Project Change Management Plan,1
+14,riskManagementPlan,Risk Management Plan,1
+15,issueManagementPlan,Issue Management Plan,1
+16,qualityManagementPlan,Quality Management Plan,1
+17,communicationsManagementPlan,Communications Management Plan,1
+18,executingKickoffMeeting,Executing Kick-off Meeting,2
+19,projectCoordination,Project Coordination,2
+20,qualityAssurance,Quality Assurance,2
+21,projectReporting,Project Reporting,2
+22,informationDistribution,Information Distribution,2
+23,monitorProjectPerformance,Monitor Project Performance,4
+24,controlSchedule,Control Schedule,4
+25,controlCost,Control Cost,4
+26,manageStakeholders,Manage Stakeholders,4
+27,manageRequirements,Manage Requirements,4
+28,manageProjectChanges,Manage Project Changes,4
+29,manageRisks,Manage Risks,4
+30,manageIssuesAndDecisions,Manage Issues & Decisions,4
+31,manageQuality,Manage Quality,4
+32,manageDeliverablesAcceptance,Manage Deliverables Acceptance,4
+33,manageBusinessImplementation,Manage Business Implementation,4
+34,manageTransition,Manage Transition,4
+35,manageOutsourcing,Manage Outsourcing,4
+36,projectEndReviewMeeting,Project-End Review Meeting,3
+37,projectEndReport,Project-End Report,3
+38,administrativeClosure,Administrative Closure,3
