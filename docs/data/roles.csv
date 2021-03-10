@@ -1,4 +1,5 @@
-﻿ATeM,Agile Team Member,Provider,Individual,Optional role,Team Member that focuses on producing the actual IS that is part of the project's solution to the stakeholders needs.,No,Agile specific role,0
+﻿id_role,name,R/P,G/I,role_type,description,PSC_participation,classification,RASCI,
+ATeM,Agile Team Member,Provider,Individual,Optional role,Team Member that focuses on producing the actual IS that is part of the project's solution to the stakeholders needs.,No,Agile specific role,0
 APR,Analyst Programmer,Provider,Both,Optional role,Develops the solution according to the specifications,On request,IT specific roles,0
 AGB,Appropriate Governance Body,Requestor,Group,Optional role,"Management committee governing a number of projects, mostly at Unit or Department level",On request,Teams,1
 ArOw,Architecture Owner,Provider,Individual,Optional role,The solution architect responsible for the architecture decisions for the Project Core Team (PCT),No,Agile specific role,0
