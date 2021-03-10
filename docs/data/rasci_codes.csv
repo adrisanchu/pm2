@@ -1,0 +1,10 @@
+﻿rasci,name,description
+n.a.,Not Applicable,NULL
+R,Responsible,Does the work. Others can be asked to assist in a supporting role. There is just one responsible person for any given task.
+A,Accountable,Ultimately answerable for the correct and thorough completion of the work. There is just one accountable person for any given task.
+S,Supports,"As part of a team, roles with a support function work with the person responsible. The support role helps complete the task."
+C,Consulted,Those whose opinions are requested and with whom there is two-way communication. The consulted role does not help complete the task.
+I,Informed,Those who are kept informed of progress.
+A/S,Accountable/Supports,NULL
+S/C,Supports/Consulted,NULL
+I/C,Informed/Consulted,NULL
