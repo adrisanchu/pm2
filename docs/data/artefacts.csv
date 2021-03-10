@@ -1,0 +1,40 @@
+﻿id_artefact,code,name,id_phase,description
+0,projectInitiationRequest,Project Initiation Request,0,NULL
+1,businessCase,Business Case,0,NULL
+2,projectCharter,Project Charter,0,NULL
+3,planningKickoffMeeting,Planning Kick-off Meeting,1,NULL
+4,projectHandbook,Project Handbook,1,NULL
+5,projectStakeholderMatrix,Project Stakeholder Matrix,1,NULL
+6,projectWorkPlan,Project Work Plan,1,NULL
+7,outsourcingPlan,Outsourcing Plan,1,NULL
+8,deliverablesAcceptancePlan,Deliverables Acceptance Plan,1,NULL
+9,transitionPlan,Transition Plan,1,NULL
+10,businessImplementationPlan,Business Implementation Plan,1,NULL
+11,managementPlans,Management Plans,1,NULL
+12,requirementsManagementPlan,Requirements Management Plan,1,NULL
+13,projectChangeManagementPlan,Project Change Management Plan,1,NULL
+14,riskManagementPlan,Risk Management Plan,1,NULL
+15,issueManagementPlan,Issue Management Plan,1,NULL
+16,qualityManagementPlan,Quality Management Plan,1,NULL
+17,communicationsManagementPlan,Communications Management Plan,1,NULL
+18,executingKickoffMeeting,Executing Kick-off Meeting,2,NULL
+19,projectCoordination,Project Coordination,2,NULL
+20,qualityAssurance,Quality Assurance,2,NULL
+21,projectReporting,Project Reporting,2,NULL
+22,informationDistribution,Information Distribution,2,NULL
+23,monitorProjectPerformance,Monitor Project Performance,4,NULL
+24,controlSchedule,Control Schedule,4,NULL
+25,controlCost,Control Cost,4,NULL
+26,manageStakeholders,Manage Stakeholders,4,NULL
+27,manageRequirements,Manage Requirements,4,NULL
+28,manageProjectChanges,Manage Project Changes,4,NULL
+29,manageRisks,Manage Risks,4,NULL
+30,manageIssuesAndDecisions,Manage Issues & Decisions,4,NULL
+31,manageQuality,Manage Quality,4,NULL
+32,manageDeliverablesAcceptance,Manage Deliverables Acceptance,4,NULL
+33,manageBusinessImplementation,Manage Business Implementation,4,NULL
+34,manageTransition,Manage Transition,4,NULL
+35,manageOutsourcing,Manage Outsourcing,4,NULL
+36,projectEndReviewMeeting,Project-End Review Meeting,3,NULL
+37,projectEndReport,Project-End Report,3,NULL
+38,administrativeClosure,Administrative Closure,3,NULL
