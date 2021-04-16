@@ -1,0 +1,29 @@
+{
+    "params": {
+        "docTitle": "The PM² Methodology Guide v3.0",
+        "currentEdition": "The PM² Guide v3.0, December 2018",
+        "previousEditions": [
+            "The PM² Guide – Open Edition, v0.9, November 2016",
+            "The PM² Guide, v2.5, September 2015"
+        ],
+        "producedAndPublishedBy": "the European Commission, DIGIT Centre of Excellence in Project Management (CoEPM²)",
+        "language": "English",
+        "chapter": "3. Overview of the PM² Methodology",
+        "sections": [
+            "3.2 The PM² Lifecycle",
+            "3.3 PM² Phase Drivers and Key Artefacts"
+        ]
+    },
+    "data": {
+        "Document Control Information": {
+            "Document Title" :  "Project Initiation Request",
+            "Project Title":    "<Project Name>",
+            "Document Author":	"<Document Author>",
+            "Project Owner": 	"<Project Owner (PO)>",
+            "Project Manager": 	"<Project Manager (PM)>",
+            "Doc. Version": 	"<Version>",
+            "Sensitivity": 	    "<Public, Basic, High>",
+            "Date": 	        "<Date>"
+        }
+    }
+}
